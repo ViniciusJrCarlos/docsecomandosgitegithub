@@ -118,6 +118,30 @@ git stach apply (mantem a alteração na lista para usar posterior)
 
 ================================================================
 
+INFORMAÇÃO SOBRE FORK
+
+quando voce clona um projeto de terceiro 
+
+- realizar o fork
+- criar uma pasta no seu git com outro nome
+- realizar o clone para sua maquina local com vscode
+- realizar o git pull para atualizar tudo
+- realizar alguma alteracao no readme e realizar os comandos de git add . 
+
+================================================================
+
+INFORMAÇÃO SOBRE COMMIT 
+
+
+echo "### NOMEDOPROJETO" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/#NOMEDOPROJETOGIT
+git push -u origin main
+
+=============================================================
 
 ```
 
